@@ -22,4 +22,3 @@ if __name__ == "__main__":
     weights = data[3:(2 * n + 2):2]
     opt_value = get_optimal_value(capacity, weights, values)
     print("{:.10f}".format(opt_value))
-    
