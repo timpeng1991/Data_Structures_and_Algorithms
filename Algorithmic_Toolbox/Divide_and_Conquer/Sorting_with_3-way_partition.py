@@ -3,6 +3,7 @@ import sys
 import random
 
 # 3-way partition
+# improve the randomized quick sort algorithm
 def partition3(a, l, r):
     x = a[l]
     m1 = l
